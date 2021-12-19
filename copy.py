@@ -1,0 +1,15 @@
+def PrimeChecker(a):
+    #nothing to mention in here
+    if a > 1 :
+        for j in range(2, int(a/2)+1):
+            if(a % j) == 0:
+                print(a,"is not a prime number")
+                break
+            else:
+                print(a, " is a prime number")
+        else:
+            print(a,"is not a prime number")
+a=int(input("Enter an input numbers:"))
+PrimeChecker(a)
+
+#this is a changed one......
